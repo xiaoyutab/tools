@@ -1,0 +1,25 @@
+{
+    "name": "xiaoyutab/tools",
+    "description": "这是我的个人工具箱，里面保存有PHP的操作模型类，方便个人使用",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "xiaoyutab",
+            "email": "xiaoyutab@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+	"version":"1.0.0",
+	"support":{
+		"issues":"https://github.com/xiaoyutab/tools/issues"
+	},
+	"require":{
+		"php":">=7.0"
+	}
+	"autoload":{
+		"psr-4":{
+			"xiaoyutab":"src/"
+		}
+	}
+}
